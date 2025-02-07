@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+  }
+  
+  .gallery-title {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .gallery-subtitle {
+    text-align: center;
+  }
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: url('/Images/MD24-22.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-hero {
+    height: 60vh;
+    background: url('/Images/MD24-37.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .hero .btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  .gallery-hero .btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .hero .btn:hover {
+    background: #e55b4d;
+  }
+  .gallery-hero .btn:hover {
+    background: #e55b4d;
+  }
+  
+  /* Highlights Section */
+  .highlights {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .highlights h2{
+    font-size: 2rem;
+  }
+  
+  .highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .highlights li {
+    margin: 10px 0;
+  }
